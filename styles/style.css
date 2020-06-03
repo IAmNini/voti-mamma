@@ -1,17 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
 .flex-container {
   width: 100vh;
-  margin: 0;
+  margin: 30px 0 0 0;
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.title-and-form {
-
+  border: 1px solid black;
 }
 
 form {
   display: flex;
   flex-direction: column;
   max-width: 600px;
+}
+
+.label-and-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  margin: 7px;
+  padding: 4px;
+}
+
+button {
+  margin: 20px;
+  padding: 5px;
+}
+
+/* #risultato {
+  border: 1px solid black;
+  padding: 5px;
+} */
+
+.nuova-media {
+  display: none;
 }

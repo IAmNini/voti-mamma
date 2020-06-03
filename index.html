@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
+  <script src="app.js"></script>
   <title>Media Voti Italiano</title>
 </head>
 
@@ -13,21 +14,41 @@
     <div class="title-and-form">
       <h1>Media dei voti di Italiano</h1>
       <form>
-        <label>Nome alunno</label>
-        <input />
-        <label>Voto 1</label>
-        <input />
-        <label>Voto 2</label>
-        <input />
-        <label>Voto 3</label>
-        <input />
-        <label>Voto 4</label>
-        <input />
-        <label>Voto 5</label>
-        <input />
-        <label>Voto 6</label>
-        <input />
+        <div class="label-and-input">
+          <label>Nome alunno:</label>
+          <input type="text" id="nome-alunno" />
+        </div>
+        <div class="label-and-input">
+          <label>Analisi Logica:</label>
+          <input type="text" id="voto1" />
+        </div>
+        <div class="label-and-input">
+          <label>Scrittura - Medico:</label>
+          <input type="text" id="voto2" />
+        </div>
+        <div class="label-and-input">
+          <label>Scrittura - Personaggi:</label>
+          <input type="text" id="voto3" />
+        </div>
+        <div class="label-and-input">
+          <label>Scrittura - Viaggio:</label>
+          <input type="text" id="voto4" />
+        </div>
+        <div class="label-and-input">
+          <label>Presentazioni:</label>
+          <input type="text" id="voto5" />
+        </div>
+        <div class="label-and-input">
+          <label>Ricerche:</label>
+          <input type="text" id="voto6" />
+        </div>
+        <div class="label-and-input">
+          <label>Partecipazione:</label>
+          <input type="text" id="voto7" />
+        </div>
         <button>Calcola Media</button>
+        <p id="risultato"></p>
+        <button type="submit" class="nuova-media">Calcola una nuova media</button>
       </form>
     </div>
   </div>
