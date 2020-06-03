@@ -39,6 +39,7 @@ button {
   background-color: lightpink;
   border-radius: 7px;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .nuova-media {
