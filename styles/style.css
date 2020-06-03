@@ -2,15 +2,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
+  background-color: lavender;
 }
 
 .flex-container {
-  width: 100vh;
+  width: 530px;
   margin: 30px 0 0 0;
   display: flex;
   align-items: center;
   flex-direction: column;
   border: 1px solid black;
+  background-color: lavenderblush;
 }
 
 form {
@@ -33,12 +35,10 @@ input {
 button {
   margin: 20px;
   padding: 5px;
-}
-
-/* #risultato {
+  background-color: lightpink;
+  border-radius: 7px;
   border: 1px solid black;
-  padding: 5px;
-} */
+}
 
 .nuova-media {
   display: none;
